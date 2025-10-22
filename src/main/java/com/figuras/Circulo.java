@@ -1,9 +1,10 @@
+package com.figuras;
 
 public class Circulo extends Figura{
     private int radio;
 
     public Circulo(int radio) {
-        super("Circulo");
+        super("com.figuras.Circulo");
         this.radio = radio;
     }
 

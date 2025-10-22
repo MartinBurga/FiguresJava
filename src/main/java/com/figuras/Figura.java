@@ -1,3 +1,5 @@
+package com.figuras;
+
 public abstract class Figura {
     protected String nombre;
 
@@ -11,7 +13,7 @@ public abstract class Figura {
 
     public void mostrarFigura()
     {
-        System.out.println("Figura: " + nombre);
+        System.out.println("com.figuras.Figura: " + nombre);
         System.out.println("Area: " + calcularArea());
         System.out.println("Perimetro: " + determinarPerimetro());
         System.out.println(" ");

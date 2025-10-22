@@ -1,9 +1,11 @@
+package com.figuras;
+
 public class Cuadrado extends Figura {
 
     private int lado;
 
     public Cuadrado(int lado) {
-        super("Cuadrado");
+        super("com.figuras.Cuadrado");
         this.lado = lado;
     }
 

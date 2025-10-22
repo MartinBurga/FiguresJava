@@ -1,3 +1,5 @@
+package com.figuras;
+
 public class Triangulo extends Figura{
     private int base;
     private int altura;
@@ -6,7 +8,7 @@ public class Triangulo extends Figura{
     private int lado3;
 
     public Triangulo( int base, int altura, int lado1, int lado2, int lado3) {
-        super("Triangulo");
+        super("com.figuras.Triangulo");
         this.base = base;
         this.altura = altura;
         this.lado1 = lado1;

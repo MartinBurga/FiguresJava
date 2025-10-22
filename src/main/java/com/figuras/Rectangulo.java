@@ -1,9 +1,11 @@
+package com.figuras;
+
 public class Rectangulo extends Figura{
     private int base;
     private int altura;
 
     public Rectangulo( int base, int altura) {
-        super("Rectangulo");
+        super("com.figuras.Rectangulo");
         this.base = base;
         this.altura = altura;
     }
