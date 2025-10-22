@@ -15,7 +15,7 @@ public class ExternalFigure {
             System.out.println("No existe la figura '" + nombre + "' en Java. Utilizando Groovy");
 
             try (GroovyClassLoader loader = new GroovyClassLoader()) {
-                // Aquí podrías en el futuro cargar el código desde un servicio externo (ver paso 3)
+                
                 String codigoGroovy = """
                     class Pentagono extends com.figuras.Figura {
                         double lado
